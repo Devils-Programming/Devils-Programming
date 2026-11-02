@@ -1,0 +1,52 @@
+name: Generate 3D Profile & Contribution Snake
+
+on:
+  schedule:
+    # Runs automatically everyday at 00:00 UTC
+    - cron: "0 0 * * *"
+  workflow_dispatch: # Allows 1-click manual trigger from the GitHub Actions tab
+  push:
+    branches:
+      - main
+      - master
+
+permissions:
+  contents: write
+
+jobs:
+  build-3d-assets:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Generate 3D Isometric Contribution Graph
+        uses: yoshi389111/github-profile-3d-contrib@latest
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          USERNAME: ${{ github.repository_owner }}
+
+      - name: Generate Contribution Snake SVGs
+        uses: platane/snk/svg-only@v3
+        with:
+          github_user_name: ${{ github.repository_owner }}
+          outputs: |
+            dist/github-snake.svg
+            dist/github-snake-dark.svg?palette=github-dark
+
+      - name: Bundle 3D and Snake SVGs
+        run: |
+          mkdir -p dist
+          if [ -d "profile-3d-contrib" ]; then
+            cp profile-3d-contrib/*.svg dist/
+          fi
+
+      - name: Deploy SVGs to output branch
+        uses: crazy-max/ghaction-github-pages@v4
+        with:
+          target_branch: output
+          build_dir: dist
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
