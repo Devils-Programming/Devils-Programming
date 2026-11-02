@@ -1,19 +1,28 @@
 <div align="center">
 
-<!-- 3D Cyberpunk Animated Hero Banner -->
-<img width="100%" src="https://capsule-render.vercel.app/api?type=cylinder&color=0:030712,35:0f172a,70:1e1b4b,100:3b0764&height=240&section=header&text=HARSH&fontSize=52&fontColor=38bdf8&animation=fadeIn&fontAlignY=36&desc=Lead%20Software%20Engineer%20%E2%80%A2%20Polyglot%20Systems%20Architect&descAlignY=58&descSize=20&stroke=38bdf8&strokeWidth=2" alt="Harsh Header" />
+<!-- 3D Bespoke Metallic & Neon Insignia -->
+<a href="https://devils-programming.github.io/Devils-Programming/" target="_blank">
+  <img width="100%" src="assets/hero-3d-insignia.svg" alt="Harsh - Systems Architect 3D Insignia" />
+</a>
 
 <!-- Dynamic Terminal-Style Subtitle -->
 <a href="https://github.com/Devils-Programming">
-  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=21&duration=2600&pause=1100&color=38BDF8&center=true&vCenter=true&multiline=false&width=850&lines=Polyglot+Software+Engineer+%26+Distributed+Systems+Architect;Architecting+High-Throughput%2C+Fault-Tolerant+Platforms;Rust+%E2%80%A2+Go+%E2%80%A2+Python+%E2%80%A2+TypeScript+%E2%80%A2+C%2B%2B+%E2%80%A2+Java+%E2%80%A2+SQL;Agentic+AI+Pipelines+%E2%80%A2+Autonomous+Workflows+%E2%80%A2+LLM+Engines;Bridging+Low-Latency+Systems+With+Direct+Enterprise+ROI" alt="Typing Subtitle" />
+  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=20&duration=2500&pause=1000&color=38BDF8&center=true&vCenter=true&multiline=false&width=860&lines=Principal+Software+Engineer+%E2%80%A2+Polyglot+Systems+Architect;Architecting+High-Throughput%2C+Fault-Tolerant+Platforms;Rust+%E2%80%A2+Go+%E2%80%A2+Python+%E2%80%A2+TypeScript+%E2%80%A2+C%2B%2B+%E2%80%A2+Java+%E2%80%A2+SQL;Agentic+AI+Workflows+%E2%80%A2+Autonomous+Pipelines+%E2%80%A2+LLM+Engines;Eliminating+System+Drag+%E2%80%A2+Scaling+Without+Friction" alt="Typing Subtitle" />
 </a>
 
-<br/>
+<br/><br/>
+
+<!-- Interactive 3D Three.js WebGL Launcher Card -->
+<a href="https://devils-programming.github.io/Devils-Programming/" target="_blank">
+  <img width="100%" src="assets/threejs-launcher-banner.svg" alt="Launch Interactive Three.js WebGL Scene" />
+</a>
+
+<br/><br/>
 
 <!-- Live Status & Telemetry Pill Badges -->
 <p align="center">
-  <img src="https://img.shields.io/badge/STATUS-OPEN_TO_HIGH--IMPACT_CHALLENGES-22c55e?style=for-the-badge&logo=statuspage&logoColor=white" alt="Status" />
-  <img src="https://img.shields.io/badge/ARCH-DISTRIBUTED_SYSTEMS_%26_AI-38bdf8?style=for-the-badge&logo=googlecloud&logoColor=white" alt="Focus" />
+  <img src="https://img.shields.io/badge/STATUS-OPEN_TO_PRINCIPAL_ROLES-22c55e?style=for-the-badge&logo=statuspage&logoColor=white" alt="Status" />
+  <img src="https://img.shields.io/badge/PARADIGM-DISTRIBUTED_SYSTEMS_%26_AI-38bdf8?style=for-the-badge&logo=googlecloud&logoColor=white" alt="Focus" />
   <img src="https://img.shields.io/badge/EXPERIENCE-3--5%2B_YEARS_PROD-818cf8?style=for-the-badge&logo=airplayvideo&logoColor=white" alt="Experience" />
   <img src="https://komarev.com/ghpvc/?username=Devils-Programming&label=PROFILE_IMPRESSIONS&color=c084fc&style=for-the-badge" alt="Profile Views" />
 </p>
@@ -45,7 +54,7 @@ GitHub Handle  : Devils-Programming
 Runtimes       : Rust, Go, Python 3.12, TypeScript 5.x, Java 21, C++20, Modern SQL
 Core Paradigm  : Distributed Microservices, Event-Driven Streaming, Agentic AI, Zero-Trust
 Availability   : Sub-50ms p99 Latency SLA • Zero-Downtime Blue/Green Deployments
-Current Focus  : Autonomous Multi-Agent Orchestrations & Distributed OLAP Pipelines
+Interactive Lab: https://devils-programming.github.io/Devils-Programming/
 Mission        : Eliminating system drag, reducing operational overhead, building platforms that scale silently.
 ```
 
